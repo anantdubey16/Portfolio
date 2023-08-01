@@ -48,15 +48,15 @@ const Education = () => {
           />
           <Detail
             degree="Class XII"
-            time="2018-2019"
-            institute="DAV Public School, MCL, Bandhabahal"
-            info="Completed my AISSCE and secured 93.6%"
+            time="2019-2020"
+            institute="Noble Children Academy, Jabalpur"
+            info="Completed my AISSCE and secured 84.6%"
           />
           <Detail
             degree="Class X"
-            time="2016-2017"
-            institute="Delhi Public School, Kamptee Road, Nagpur"
-            info="Completed my AISSE and secured 10 CGPA"
+            time="2017-2018"
+            institute="St. Aloysius Sen. Sec. School, Rimjha, Jabalpur"
+            info="Completed my AISSE and secured 78.4%"
           />
         </ul>
       </div>

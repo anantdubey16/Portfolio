@@ -36,7 +36,7 @@ const NavBar = () => {
       </div>
       <nav className="flex justify-center items-center flex-wrap">
         <motion.a
-          href="https://github.com/SUBS2905"
+          href="https://github.com/anantdubey16"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -45,7 +45,7 @@ const NavBar = () => {
           <GithubIcon />
         </motion.a>
         <motion.a
-          href="https://leetcode.com/SUBS2905/"
+          href="https://leetcode.com/anantdubey/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -54,7 +54,7 @@ const NavBar = () => {
           <LeetcodeIcon />
         </motion.a>
         <motion.a
-          href="https://www.linkedin.com/in/subhransu-majhi/"
+          href="https://www.linkedin.com/in/anantdubey16/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -63,7 +63,7 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="https://www.instagram.com/subhranshu_majhi/"
+          href="https://www.instagram.com/_anantdubey_/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -72,7 +72,7 @@ const NavBar = () => {
           <InstagramIcon />
         </motion.a>
         <motion.a
-          href="https://twitter.com/SUBS2905"
+          href="https://twitter.com/_anantdubey_"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}

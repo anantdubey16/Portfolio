@@ -56,20 +56,20 @@ const Certifications = () => {
             title="Security, Compliance, and Identity Fundamentals"
             time="June 2023"
             provider="Microsoft Certified Fundamentals"
-            link="https://drive.google.com/file/d/1BCbqGuK7ZRJgSQZhgoLtnElHpJtQViyM/view?usp=sharing"
+            link="https://drive.google.com/file/d/1rnPLNeZk2HpqtKE5ZoSk_ITXL41wjVYS/view?usp=sharing"
           />
           <Detail
-            title="Google Data Analytics"
-            time="Feb 2023"
-            provider="Coursera"
-            link="https://www.coursera.org/account/accomplishments/specialization/certificate/FRLJKRQ7VTU9"
+            title="User Experience Design Essentials"
+            time="Jan 2022"
+            provider="Udemy"
+            link="https://www.udemy.com/certificate/UC-3d48852f-27fd-43bd-8aaf-e17e78af87be/"
           />
-          <Detail
+          {/* <Detail
             title="Applied Machine Learning in Python"
             time="Oct 2021"
             provider="Coursera"
             link="https://www.coursera.org/account/accomplishments/certificate/QE4YNRL6TF5N"
-          />
+          /> */}
         </ul>
       </div>
     </div>

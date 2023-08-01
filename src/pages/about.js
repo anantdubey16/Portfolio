@@ -13,12 +13,12 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Subhransu | About page</title>
+        <title>Anant | About page</title>
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
+          <AnimatedText text="Unveiling the Journey: Anant Dubey - Where Innovation Meets Passion" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-4 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">

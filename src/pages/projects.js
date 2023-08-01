@@ -51,24 +51,24 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Subhransu | Projects page</title>
+        <title>Anant | Projects page</title>
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Ventures in Innovation!"
             className="mb-16"
           />
           <div className="grid grid-cols-12 gap-24">
             <div className="col-span-12">
               <FeaturedProject
-                title="chat-A-lot"
-                summary="A React x Firebase based chat application with a polished UI, authentication, email verification, and personal chat functionalities, including message and image sending capabilities. Utilized Firebase for real-time communication and data storage, and React for a dynamic front-end."
+                title="Bash Buddy"
+                summary="A Flutter x Firebase based event management application with a polished UI, authentication, email verification, and personal chat functionalities, including message and image sending capabilities. Utilized Firebase for real-time communication and data storage, and React for a dynamic front-end."
                 type="Featured Project"
                 image={chatalot}
-                link="https://fluffy-dasik-c2be7c.netlify.app/"
-                github="https://github.com/SUBS2905/chatAlot"
+                link="https://github.com/anantdubey16/Bash-Buddy"
+                github="https://github.com/anantdubey16/Bash-Buddy"
               />
             </div>
             <div className="col-span-12">
