@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { TwitterIcon, GithubIcon, LinkedInIcon, InstagramIcon, LeetcodeIcon } from "./Icons";
+import { TwitterIcon, GithubIcon, LinkedInIcon, InstagramIcon, LeetcodeIcon, FigmaIcon } from "./Icons";
 import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -79,6 +79,15 @@ const NavBar = () => {
           className="w-6 mr-3"
         >
           <TwitterIcon />
+        </motion.a>
+        <motion.a
+          href="https://figma.com/@anantdubey"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mr-3"
+        >
+          <FigmaIcon />
         </motion.a>
       </nav>
     </header>

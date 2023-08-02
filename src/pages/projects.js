@@ -1,8 +1,11 @@
 import React from "react";
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon } from "@/components/Icons";
-import chatalot from "../../public/images/projects/chatalot.png";
+import { FigmaIcon, GithubIcon } from "@/components/Icons";
+import ems from "../../public/images/projects/ems.png";
 import scholar from "../../public/images/projects/scholar.png";
+import mentor from "../../public/images/projects/mentor.png";
+import spotify from "../../public/images/projects/spotify.png";
+import getwheels from "../../public/images/projects/getwheels.png";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -46,6 +49,43 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
     </article>
   );
 };
+const FeaturedDesign = ({ type, title, summary, image, link, github }) => {
+  return (
+    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative ">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark" />
+      <Link
+        href={link}
+        target="_blank"
+        className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
+      >
+        <Image src={image} alt={title} className="w-full h-auto hover:scale-110 transition ease-in-out delay-100 duration-200" />
+      </Link>
+      <div className="w-1/2 flex flex-col items-start justify-between pl-6">
+        <span className="text-primary font-medium text-xl">{type}</span>
+        <Link
+          href={link}
+          target="_blank"
+          className="hover:underline underline-offset-2"
+        >
+          <h2 className="my-2 w-full text-left text-4xl font-bold ">{title}</h2>
+        </Link>
+        <p className="my-2 font-medium text-dark ">{summary}</p>
+        <div className="mt-2 flex items-center">
+          <Link href={github} target="_blank" className="w-10">
+            <FigmaIcon />
+          </Link>
+          <Link
+            href={link}
+            target="_blank"
+            className="ml-4 rounded bg-dark text-light p-2 px-6 text-lg font-semibold"
+          >
+            Visit Project
+          </Link>
+        </div>
+      </div>
+    </article>
+  );
+};
 
 const projects = () => {
   return (
@@ -66,7 +106,7 @@ const projects = () => {
                 title="Bash Buddy"
                 summary="A Flutter x Firebase based event management application with a polished UI, authentication, email verification, and personal chat functionalities, including message and image sending capabilities. Utilized Firebase for real-time communication and data storage, and React for a dynamic front-end."
                 type="Featured Project"
-                image={chatalot}
+                image={ems}
                 link="https://github.com/anantdubey16/Bash-Buddy"
                 github="https://github.com/anantdubey16/Bash-Buddy"
               />
@@ -79,6 +119,36 @@ const projects = () => {
                 image={scholar}
                 link="https://microsoftedge.microsoft.com/addons/detail/scholar-extension/ealcaeeibjbbldffggeddeedfaajiekb"
                 github="https://github.com/d17012002/scholar-extension"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedDesign
+                title="MentorConnect"
+                summary="Discover MentorConnect: Your Path to the Perfect Mentor! Our sleek UI/UX connects you effortlessly with inspiring mentors, making personal growth a breeze. Join today and unleash your potential!"
+                type="Project"
+                image={mentor}
+                link="https://www.behance.net/gallery/176693055/Find-Your-Mentor"
+                github="https://www.figma.com/file/XhWYAn3sOjOwVGkKcW7cFc/Mentor-project?type=design&t=DLYJVWmh2AVCkqdf-6"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedDesign
+                title="Neu-Brutalism Spotify"
+                summary="Neu-Brutalism Spotify: Where neumorphism meets bold brutalism for a sleek, raw, and immersive music experience."
+                type="Project"
+                image={spotify}
+                link="https://www.behance.net/gallery/176693813/Neu-Brutalism-Spotify"
+                github="https://www.figma.com/file/cCcfh4ma8Shu4DXZWYcM3e/spotify?type=design&t=DLYJVWmh2AVCkqdf-6"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedDesign
+                title="Get-Wheels"
+                summary="Get-Wheels: Your go-to platform for hassle-free vehicle rentals. Choose from a diverse fleet, book with ease, and enjoy an unforgettable driving experience. Convenience and satisfaction guaranteed. Join us now!"
+                type="Project"
+                image={getwheels}
+                link="https://www.behance.net/gallery/158382641/Vehicle-Rental-Website"
+                github="https://www.figma.com/file/BZ2ysldi3a4boRuMeUkUqQ/Get-Wheles-(Community)?type=design&node-id=0%3A1&mode=design&t=34KocH3lYWeniQsQ-1"
               />
             </div>
           </div>
