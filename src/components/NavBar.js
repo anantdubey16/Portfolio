@@ -25,16 +25,16 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
-      <nav>
+    <header className="w-full px-6 md:px-32 py-4 md:py-8 font-medium flex flex-wrap md:items-center justify-between">
+      <nav className="mb-4 md:mb-0">
         <CustomLink href="/" title="Home" className="mr-4 " />
         <CustomLink href="/about" title="About" className="mx-4" />
         <CustomLink href="/projects" title="Projects" className="ml-4" />
       </nav>
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+      <div className="w-full md:w-auto md:mb-0 flex justify-center items-center">
         <Logo />
       </div>
-      <nav className="flex justify-center items-center flex-wrap">
+      <nav className="flex justify-center items-center flex-wrap md:justify-end">
         <motion.a
           href="https://github.com/anantdubey16"
           target={"_blank"}

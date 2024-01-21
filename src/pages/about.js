@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import profilePic from "../../public/images/profile/profile-pic.png";
+import profilePic from "../../public/images/profile/profile-pic.jpg";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Certifications from "@/components/Certifications";

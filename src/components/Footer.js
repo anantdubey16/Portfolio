@@ -5,9 +5,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-solid border-dark fornt-medium text-lg ">
-      <Layout className="py-8 flex items-center justify-between ">
+      <Layout className="py-8 flex flex-col sm:flex-row items-center justify-between">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-        <div className="flex items-center">
+        <div className="flex items-center my-4 sm:my-0">
           Built with{" "}
           <span className="text-red-600 text-2xl px-1">&hearts;</span> by&nbsp;Anant Dubey
         </div>
