@@ -29,12 +29,12 @@ const Skills = () => {
         </motion.div>
         <Skill name="UI UX" x="0" y="-7vw" />
         <Skill name="Java" x="10vw" y="4vw" />
-        <Skill name="Flutter" x="-15vw" y="6vw" />
+        <Skill name="Rust" x="-15vw" y="6vw" />
         <Skill name="Dart" x="12vw" y="-9vw" />
         <Skill name="CSS" x="-22vw" y="-7vw" />
-        <Skill name="Riverpod" x="0vw" y="15vw" />
+        <Skill name="Analytics" x="0vw" y="15vw" />
         <Skill name="Figma" x="-8vw" y="-18vw" />
-        <Skill name="Framer" x="26vw" y="0" />
+        <Skill name="Kafka" x="26vw" y="0" />
         <Skill name="FireBase" x="25vw" y="-17vw" />
         <Skill name="Spline 3d" x="-28vw" y="15vw" />
       </div>

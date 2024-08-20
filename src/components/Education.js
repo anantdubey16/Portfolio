@@ -44,7 +44,7 @@ const Education = () => {
             degree="Bachelor of Technology"
             time="2020-2024"
             institute="Vellore Institute of Technology, Bhopal"
-            info="Pursuing my B.tech in Computing Science and Engineering"
+            info="B.tech in Computing Science and Engineering"
           />
           <Detail
             degree="Class XII"

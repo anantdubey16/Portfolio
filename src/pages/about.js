@@ -25,13 +25,13 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-              Hey there! I&apos;m a final year Computer Science and Engineering student at Vellore Institute of Technology, Bhopal. Programming and video games are my obsessions, and I&apos;m always seeking new ways to level up my skills.
+              Hey there! I'm Anant Dubey, a Computer Science graduate and current Research Analyst at Edureka, where I dive deep into emerging technologies and design data-driven solutions. My passion lies in turning complex data into intuitive digital experiences, blending analytical thinking with creativity.
               </p>
               <p className="my-4 font-medium">
-              When I&apos;m not immersed in lines of code, you&apos;ll likely find me with a cup of tea in hand. There&apos;s something magical about the brew that fuels my creativity and keeps me energized throughout the day.
+              When I'm not analyzing trends or sketching out UI/UX designs, you'll find me experimenting in the kitchen or perfecting a new drawing. I believe that innovation thrives at the crossroads of curiosity and creativity.
               </p>
               <p className="font-medium">
-              Join me on this exciting adventure as I navigate the world of technology, conquer coding challenges, and unlock the secrets of immersive gaming experiences. Together, let&apos;s embark on a journey where code meets pixels, and tea fuels innovation. Cheers to innovation and limitless possibilities!
+              Join me on this journey as I explore the endless possibilities where data meets design. Cheers to creating something extraordinary!
               </p>
             </div>
             <div className="col-span-1"></div>
