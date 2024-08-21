@@ -25,10 +25,10 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-              Hey there! I'm Anant Dubey, a Computer Science graduate and current Research Analyst at Edureka, where I dive deep into emerging technologies and design data-driven solutions. My passion lies in turning complex data into intuitive digital experiences, blending analytical thinking with creativity.
+              Hey there! I&apos;m Anant Dubey, a Computer Science graduate and current Research Analyst at Edureka, where I dive deep into emerging technologies and design data-driven solutions. My passion lies in turning complex data into intuitive digital experiences, blending analytical thinking with creativity.
               </p>
               <p className="my-4 font-medium">
-              When I'm not analyzing trends or sketching out UI/UX designs, you'll find me experimenting in the kitchen or perfecting a new drawing. I believe that innovation thrives at the crossroads of curiosity and creativity.
+              When I&apos;m not analyzing trends or sketching out UI/UX designs, you&apos;ll find me experimenting in the kitchen or perfecting a new drawing. I believe that innovation thrives at the crossroads of curiosity and creativity.
               </p>
               <p className="font-medium">
               Join me on this journey as I explore the endless possibilities where data meets design. Cheers to creating something extraordinary!

@@ -30,9 +30,9 @@ export default function Home() {
                 className="text-left"
               />
               <p className="my-4 text-base font-medium">
-              Hello! I’m Anant Dubey, a Computer Science graduate from VIT Bhopal, and now a Research Analyst at Edureka. My role involves researching cutting-edge technologies, providing actionable insights that fuel innovation. With a strong foundation in UI/UX design, I also bring creativity to every project, ensuring that solutions are not only functional but also user-centric.
+              Hello! I&apos;m Anant Dubey, a Computer Science graduate from VIT Bhopal, and now a Research Analyst at Edureka. My role involves researching cutting-edge technologies, providing actionable insights that fuel innovation. With a strong foundation in UI/UX design, I also bring creativity to every project, ensuring that solutions are not only functional but also user-centric.
               </p>
-              <p className="my-4 text-base font-medium">Explore my portfolio to see how I combine research with design to create solutions that make a difference. Whether you're a fellow innovator or a curious mind, let's connect and bring new ideas to life!
+              <p className="my-4 text-base font-medium">Explore my portfolio to see how I combine research with design to create solutions that make a difference. Whether you&apos;re a fellow innovator or a curious mind, let&apos;s connect and bring new ideas to life!
 
 </p>
               <div className="flex items-center self-start mt-2">
