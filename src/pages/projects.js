@@ -4,8 +4,10 @@ import { FigmaIcon, GithubIcon } from "@/components/Icons";
 import ems from "../../public/images/projects/ems.png";
 import scholar from "../../public/images/projects/scholar.png";
 import mentor from "../../public/images/projects/mentor.png";
+import crypto from "../../public/images/projects/crypto.png";
 import spotify from "../../public/images/projects/spotify.png";
 import getwheels from "../../public/images/projects/getwheels.png";
+import webscrapper from "../../public/images/projects/webscrapper.png";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -46,9 +48,11 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
           </Link>
         </div>
       </div>
+      
     </article>
   );
 };
+
 const FeaturedDesign = ({ type, title, summary, image, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative ">
@@ -103,12 +107,22 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24">
             <div className="col-span-12">
               <FeaturedProject
-                title="Bash Buddy"
-                summary="A Flutter x Firebase based event management application with a polished UI, authentication, email verification, and personal chat functionalities, including message and image sending capabilities. Utilized Firebase for real-time communication and data storage, and React for a dynamic front-end."
+                title="Web Scraper in Rust"
+                summary="This project is a multithreaded web scraper written in Rust. It fetches web pages concurrently and extracts specific information, such as titles, meta descriptions, headings, and links."
                 type="Featured Project"
-                image={ems}
-                link="https://github.com/anantdubey16/Bash-Buddy"
-                github="https://github.com/anantdubey16/Bash-Buddy"
+                image={webscrapper}
+                link="https://github.com/anantdubey16/Rust-Web-Scraper"
+                github="https://github.com/anantdubey16/Rust-Web-Scraper"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Realtime Crypto Tracker in Rust"
+                summary="Rust Crypto Tracker is a real-time cryptocurrency price monitoring server built with Rust. This project uses the CoinAPI to fetch prices for multiple cryptocurrencies and broadcasts these updates to connected clients via WebSockets."
+                type="Featured Project"
+                image={crypto}
+                link="https://github.com/anantdubey16/Realtime-Crypto-Price-Tracker-in-Rust"
+                github="https://github.com/anantdubey16/Realtime-Crypto-Price-Tracker-in-Rust"
               />
             </div>
             <div className="col-span-12">
